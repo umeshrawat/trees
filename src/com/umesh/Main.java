@@ -21,9 +21,9 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
         Node rootNode = main.createTree();
-        //main.dft(rootNode);
+        main.dft(rootNode);
         //main.dftIteratively(rootNode);
-        main.bft(rootNode);
+        //main.bft(rootNode); bft iteratively uses a queue hence, using a call stack to traverse this would be very challenging if not impossible (need to research this)
         //main.bftIteratively(rootNode);
         //inorderTraversal(rootNode);
 
